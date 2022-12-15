@@ -32,4 +32,4 @@ for i in range(NUMBER_PAGES):
 
 print(dic_produtos)
 df = pd.DataFrame(dic_produtos)
-df.to_excel('C:\\Users\\artur\\Downloads\\iphone.xlsx', index=False)
+df.to_excel('iphone.xlsx', index=False)
